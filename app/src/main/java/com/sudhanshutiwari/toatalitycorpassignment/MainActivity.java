@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
             // Continue only if the File was successfully created
             if (photoFile != null) {
                 Uri photoURI = FileProvider.getUriForFile(this,
-                        "com.example.imageeditor.fileprovider",
+                        "com.sudhanshutiwari.toatalitycorpassignment",
                         photoFile);
                 takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
                 takePictureIntent.putExtra("android.intent.extras.CAMERA_FACING", 1);
